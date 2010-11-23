@@ -1,0 +1,35 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+      xmlns:tal="http://xml.zope.org/namespaces/tal"
+      xmlns:metal="http://xml.zope.org/namespaces/metal"
+      xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+      lang="en"
+      metal:use-macro="context/main_template/macros/master"
+      i18n:domain="plone">
+
+<metal:styleslot fill-slot="style_slot">
+<style type="text/css">
+h1 {
+font: normal 200px Arial, Verdana, Helvetica, sans-serif;
+margin: 0.8em 0 0 0;
+text-align: center;
+}
+</style>
+</metal:styleslot>
+<body>
+  <div metal:fill-slot="main">
+    <tal:main-macro metal:define-macro="main">
+
+      <div tal:replace="structure provider:plone.abovecontenttitle" />
+
+      <script type="text/javascript" src="++resource++cufon-Vegur.font.js"></script>
+      <script type="text/javascript">
+        Cufon.replace('h1', {
+        color: '-linear-gradient(#999, 0.45=#666, 0.45=#555, #999)'
+        });
+      </script>
+      <h1>Cufon</h1>
+    </tal:main-macro>
+  </div>
+</body>
+</html>
+      

@@ -9,9 +9,9 @@
 
   <genericsetup:registerProfile 
       name="default" 
-      title="Cufon" 
+      title="Cufon JS" 
       directory="profiles/default" 
-      description="Cufon for Plone"
+      description="Cufon javascript librarie for Plone"
       provides="Products.GenericSetup.interfaces.EXTENSION" 
       for="Products.CMFPlone.interfaces.IPloneSiteRoot"
       />
@@ -31,5 +31,15 @@
       name="cufon-1.09i.js"
       file="cufon-1.09i.js"
       />
-
+  <browser:resource
+      name="cufon-Vegur.font.js"
+      file="Vegur.font.js"
+      />
+  <browser:page
+      name="example.cufon"
+      for="*"
+      class=".example.Example"
+      template="example.pt"
+      permission="zope2.View"
+      />
 </configure>
