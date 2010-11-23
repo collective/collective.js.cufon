@@ -1,0 +1,35 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser" 
+    xmlns:five="http://namespaces.zope.org/five"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    i18n_domain="collective.js.jqueryui">
+
+  <five:registerPackage package="." />
+
+  <genericsetup:registerProfile 
+      name="default" 
+      title="Cufon" 
+      directory="profiles/default" 
+      description="Cufon for Plone"
+      provides="Products.GenericSetup.interfaces.EXTENSION" 
+      for="Products.CMFPlone.interfaces.IPloneSiteRoot"
+      />
+
+<!--
+  <genericsetup:upgradeStep
+      source="*"
+      destination="2"
+      title="Install browser layer"
+      description=""
+      profile="collective.js.jqueryui:default"
+      handler=".upgrades.install_browserlayer"
+      />
+-->
+
+  <browser:resource
+      name="cufon-1.09i.js"
+      file="cufon-1.09i.js"
+      />
+
+</configure>
