@@ -1,14 +1,17 @@
 Introduction
 ============
 
-Cufón aims to become a worthy alternative to sIFR, which despite its merits still remains painfully tricky to set up and use. To achieve this ambitious goal the following requirements were set:
+Cufón aims to become a worthy alternative to sIFR, which despite its merits
+still remains painfully tricky to set up and use. To achieve this ambitious goal
+the following requirements were set:
 
-   1. No plug-ins required – it can only use features natively supported by the client
-   2. Compatibility – it has to work on every major browser on the market
-   3. Ease of use – no or near-zero configuration needed for standard use cases
-   4. Speed – it has to be fast, even for sufficiently large amounts of text
+* No plug-ins required – it can only use features natively supported by the client
+* Compatibility – it has to work on every major browser on the market
+* Ease of use – no or near-zero configuration needed for standard use cases
+* Speed – it has to be fast, even for sufficiently large amounts of text
 
-And now, after nearly a year of planning and research we believe that these requirements have been met.
+And now, after nearly a year of planning and research we believe that these
+requirements have been met.
 
 Source: https://github.com/sorccu/cufon/
 
