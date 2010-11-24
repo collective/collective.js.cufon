@@ -32,6 +32,19 @@ update zcml
 update default profile
 add / update upgrade step
 
+Credits
+=======
+
+|makinacom|_
+
+* `Planet Makina Corpus <http://www.makina-corpus.org>`_
+* `Contact us <mailto:python@makina-corpus.org>`_
+* Contributions by Vincent Fretin (`Ecreall <http://www.ecreall.com>`_)
+
+.. |makinacom| image:: http://depot.makina-corpus.org/public/logo.gif
+.. _makinacom:  http://www.makina-corpus.com
+
+
 ROADMAP
 =======
 
