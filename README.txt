@@ -37,12 +37,12 @@ Credits
 
 |makinacom|_
 
-* `Planet Makina Corpus <http://www.makina-corpus.org>`_
+* `Planet Makina Corpus <https://www.makina-corpus.org>`_
 * `Contact us <mailto:python@makina-corpus.org>`_
-* Contributions by Vincent Fretin (`Ecreall <http://www.ecreall.com>`_)
+* Contributions by Vincent Fretin (`Ecreall <https://www.ecreall.com>`_)
 
-.. |makinacom| image:: http://depot.makina-corpus.org/public/logo.gif
-.. _makinacom:  http://www.makina-corpus.com
+.. |makinacom| image:: https://depot.makina-corpus.org/public/logo.gif
+.. _makinacom:  https://www.makina-corpus.com
 
 
 ROADMAP
